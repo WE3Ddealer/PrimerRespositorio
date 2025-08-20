@@ -42,3 +42,9 @@ y coordinacion en el equipo.
 - creacion de ramas cada uno:
 
 ![ramas](./ramas.png)
+
+- creacion del pull request:
+
+![pullrequest](./pullrequest.jpg)
+
+- Test final:
