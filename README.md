@@ -29,5 +29,13 @@ y descargar las actualizaciones del archivo.
 
 - ¿Hay una mejor forma de trabajar con git para no tener conflictos?
 
+hay cierto tipo de forma para trabajar de mejor forma en github, lo que podemos usar es crear ramas 
+para que cada persona trabaje en una rama diferente. Adicionalmente se recomienda que que no se editen
+los mismos archivos al mismo tiempo, pero que si hay que hacerlo que se coordine por seccines.
+
 - ¿Qué es y como funciona el Pull Request?
-- 
+
+el pull request es una solicitud de fusion en github, esta hace que los cambios dados por las personas 
+tengan que ser aprobador antes de unirse a la rama principal, esto sirve para tener un control de calidad
+y coordinacion en el equipo.
+
