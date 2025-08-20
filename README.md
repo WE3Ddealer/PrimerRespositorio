@@ -39,7 +39,7 @@ el pull request es una solicitud de fusion en github, esta hace que los cambios 
 tengan que ser aprobador antes de unirse a la rama principal, esto sirve para tener un control de calidad
 y coordinacion en el equipo.
 
-- creacion de ramas cada unaa:
+- creacion de ramas cada una:
 
 ![ramas](./ramas.png)
 
@@ -48,4 +48,5 @@ y coordinacion en el equipo.
 ![pullrequest](./pullrequest.jpg)
 
 - Test final:
-a
+
+![final](./pull.jpg)
