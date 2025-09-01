@@ -50,3 +50,10 @@ y coordinacion en el equipo.
 - Test final:
 
 ![final](./pull.jpg)
+
+
+# Retos
+
+## Reto 1
+
+![reto1](./reto1.png)
