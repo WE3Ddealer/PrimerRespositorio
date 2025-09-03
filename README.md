@@ -77,3 +77,7 @@ y coordinacion en el equipo.
 - builder 
 
 ![builderreto3.png](builderreto3.png)
+
+- buffer
+
+![buffer](./reto3buffer.png)
