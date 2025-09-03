@@ -56,7 +56,7 @@ y coordinacion en el equipo.
 # Reto1
 - Presentacion
 
-![img_1.png](img_1.png)
+![reto1.png](reto1.png)
 
 # Reto2
 
