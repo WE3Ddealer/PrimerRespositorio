@@ -1,6 +1,6 @@
 package carrera;
 
-class ResultadosCarril1 {
+class Resultados {
     int max;
     int cantidad;
 
