@@ -7,12 +7,12 @@ public class Carril2 {
     public static void main(String[] args) {
         List<Integer> lista = Arrays.asList(5, 12, 7, 20, 3, 10);
 
-        ResultadosCarril2 r = calcularMinimo(lista);
+        Resultados r = calcularMinimo(lista);
         System.out.println(r);
     }
 
-    static ResultadosCarril2 calcularMinimo(List<Integer> lista) {
-        ResultadosCarril2 res = new ResultadosCarril2();
+    static Resultados calcularMinimo(List<Integer> lista) {
+        Resultados res = new Resultados();
 
 
         res.min = lista.stream().min(Integer::compare).get();
