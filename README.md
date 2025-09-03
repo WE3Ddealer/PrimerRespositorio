@@ -67,12 +67,13 @@ y coordinacion en el equipo.
 ![img_2.png](img_2.png)
 
 
-- Carril2
+-Carril2
 
 ![img_3.png](img_3.png)
 
-# Reto3
 
-- merge buffer
+# Reto3 
 
-![reto3buffer](./reto3buffer.png)
+- builder 
+
+![builderreto3.png](builderreto3.png)
