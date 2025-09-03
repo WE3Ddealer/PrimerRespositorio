@@ -50,3 +50,23 @@ y coordinacion en el equipo.
 - Test final:
 
 ![final](./pull.jpg)
+
+## Retos
+
+# Reto1
+- Presentacion
+
+![img_1.png](img_1.png)
+
+# Reto2
+
+- carrera de ramas
+
+- Carril1
+
+![img_2.png](img_2.png)
+
+
+-Carril2
+
+![img_3.png](img_3.png)
