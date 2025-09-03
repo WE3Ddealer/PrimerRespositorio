@@ -70,3 +70,10 @@ y coordinacion en el equipo.
 -Carril2
 
 ![img_3.png](img_3.png)
+
+
+# Reto3 
+
+- builder 
+
+![builderreto3.png](builderreto3.png)
