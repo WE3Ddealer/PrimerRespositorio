@@ -91,3 +91,13 @@ y coordinacion en el equipo.
 - segundo merge
 
 ![reto4.2](./reto4.2.png)
+
+# Reto 5
+
+- primer merge
+
+![reto5](./reto5.1.jpg)
+
+- segundo merge
+
+![reto5](./reto5.2.png)
