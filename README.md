@@ -81,3 +81,13 @@ y coordinacion en el equipo.
 - buffer
 
 ![buffer](./reto3buffer.png)
+
+# Reto 4
+
+- primer merge
+
+![reto4.1](./reto4.1.png)
+
+- segundo merge
+
+![reto4.2](./reto4.2.png)
