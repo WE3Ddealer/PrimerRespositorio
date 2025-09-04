@@ -101,3 +101,46 @@ y coordinacion en el equipo.
 - segundo merge
 
 ![reto5](./reto5.2.png)
+
+# Reto 6
+
+- salidas 
+
+![reto6.1](./reto6.1.jpg)
+
+![reto6.2](./reto6.2.jpg)
+
+- merges 
+
+![reto6.3](./reto6.3.jpg)
+
+![reto6.4](./reto6.4.jpg)
+
+
+### Preguntas
+
+- Cuál es la diferencia e	ntre git merge y git rebase
+
+- Si dos ramas modifican la misma línea de un archivo ¿Qué sucede al hacer merge?
+
+- ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?
+
+- Explica la diferencia entre un commit y un push?
+
+- Para que sirve git stash y git pop?
+
+- Qué diferencia hay entre HashMap y HashTable?
+
+- Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
+
+- Si usas List con objetos y luego aplicas stream().map() que tipo de operación estas haciendo?
+
+- Que hace el método stream().filter() y que retorna?
+
+- Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.
+
+- ¿Cuál es la diferencia entre crear una rama con git branch y con git checkout -b?
+
+- ¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente? 
+
+ 
