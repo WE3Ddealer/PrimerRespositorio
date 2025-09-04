@@ -6,7 +6,6 @@ public class MaquinaDecisiones {
     private static final Map<String, Runnable> comandos = new HashMap<>();
 
     static {
-        // Estudiante A - Fragmento 1
         comandos.put("SALUDAR", () -> System.out.println("La máquina dice: ¡Saludos, viajero del tiempo y del código!"));
         comandos.put("DESPEDIR", () -> System.out.println("La máquina dice: Que los bits te acompañen, hasta la próxima misión."));
         comandos.put("CANTAR", () -> System.out.println("La máquina canta: 01010101"));
