@@ -119,28 +119,84 @@ y coordinacion en el equipo.
 
 ### Preguntas
 
-- Cuál es la diferencia e	ntre git merge y git rebase
+Cuál es la diferencia e	ntre git merge y git rebase
 
-- Si dos ramas modifican la misma línea de un archivo ¿Qué sucede al hacer merge?
+- merge: combina dos ramas creando un nuevo commit de merge que une sus historiales. 
+Mantiene la historia tal como sucedió.
 
-- ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?
+- rebase: reescribe la historia aplicando los commits de una rama “encima” de otra, 
+como si hubieran nacido ahí. Hace la historia más lineal y limpia.
 
-- Explica la diferencia entre un commit y un push?
+Si dos ramas modifican la misma línea de un archivo ¿Qué sucede al hacer merge?
 
-- Para que sirve git stash y git pop?
+- Se genera un conflicto ⚠️. Git no puede decidir cuál cambio conservar, 
+por lo que pide al usuario resolverlo manualmente.
 
-- Qué diferencia hay entre HashMap y HashTable?
+¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?
 
-- Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
+- "git log --oneline --graph --all" Esto muestra un árbol visual simplificado con ramas y merges.
 
-- Si usas List con objetos y luego aplicas stream().map() que tipo de operación estas haciendo?
+Explica la diferencia entre un commit y un push?
 
-- Que hace el método stream().filter() y que retorna?
+- commit: guarda los cambios en tu repositorio local (tu máquina).
 
-- Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.
+- push: envía esos commits al repositorio remoto (ej. GitHub, GitLab).
 
-- ¿Cuál es la diferencia entre crear una rama con git branch y con git checkout -b?
+Para que sirve git stash y git pop?
 
-- ¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente? 
+- git stash: guarda temporalmente cambios sin comprometerlos en un commit.
 
- 
+- git stash pop: restaura esos cambios guardados en tu directorio de trabajo y los quita del stash.
+
+
+Qué diferencia hay entre HashMap y HashTable?
+
+- HashMap:
+
+    - No es thread-safe.
+    - Permite null como clave y valores.
+    - Mejor rendimiento en entornos de un solo hilo.
+    - 
+- HashTable:
+  - Es thread-safe (sincronizado).
+   - No permite claves ni valores null.
+   - Más lenta en la mayoría de casos.
+
+Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
+
+- Más declarativo y legible (usando streams).
+- Se puede combinar con operaciones intermedias como filter, map, etc.
+- Permite manejar colisiones de claves fácilmente con un merge function.
+
+Si usas List con objetos y luego aplicas stream().map() que tipo de operación estas haciendo?
+
+- Es una operación de transformación.
+
+    - map() toma cada elemento del stream y lo convierte en otro (cambia tipo o contenido).
+    - Devuelve un Stream con los elementos transformados.
+
+Que hace el método stream().filter() y que retorna?
+
+- filter(): recibe un predicado (condición booleana) y conserva solo los elementos que cumplen la condición.
+- Retorna un Stream con esos elementos filtrados.
+
+Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.
+
+1. Cambiar a develop:
+    - git checkout develop
+2. Actualizar develop:
+    - git pull origin develop
+3. Crear la nueva rama:
+    - git checkout -b feature/nueva-funcionalidad
+
+¿Cuál es la diferencia entre crear una rama con git branch y con git checkout -b?
+
+- git branch nombre: crea la rama pero no te mueve a ella.
+- git checkout -b nombre: crea la rama y te cambia automáticamente a esa rama.
+
+¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente? 
+
+ - Mantienes main estable y libre de errores.
+- Permite trabajar en paralelo sin romper el código base.
+- Facilita revisiones de código (pull requests).
+- Hace el historial más limpio y organizado.
